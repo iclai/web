@@ -1,4 +1,8 @@
-.daliart-logo, .wonder-newland-logo{
-max-width: 150px;
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.daliart-logo img, .wonder-newland-logo img{
+min-width: 150px;
 height: auto;
 }
