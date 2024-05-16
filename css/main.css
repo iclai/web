@@ -1,6 +1,7 @@
 .container {
     max-width: 1400px;
     margin: 0 auto;
+    touch-action: auto;
 }
 
 /*--------------------------------------------------------------
@@ -260,7 +261,7 @@
     line-height: 0;
     width: auto;
     height: auto;
-    background: rgba(63, 187, 192, 0.8);
+    background: rgba(54, 54, 54, 0.8);
     border-radius: 50px;
     transition: 0.3s;
     color: rgba(255, 255, 255, 0.5);
@@ -273,7 +274,7 @@
 
 #hero .carousel-control-next-icon:hover,
 #hero .carousel-control-prev-icon:hover {
-    background: #3fbbc0;
+    background: #6e6e6e;
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -303,18 +304,16 @@
     }
 }
 
-.carousel {
-    touch-action: auto;
-}
+
 
 /*** 輪播圖的圖片 ***/
 #bannerimg01 {
     background-size: cover;
     position: relative;
     background-image: url(../imgs/img01.jpg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: center top;
-    /* display: flex; */
+    display: flex;
     height: 100vh;
     width: 100%;
     top: 0px;
@@ -328,9 +327,9 @@
     background-size: cover;
     position: relative;
     background-image: url(../imgs/img02.jpg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: center top;
-    /* display: flex; */
+    display: flex;
     height: 100vh;
     width: 100%;
     top: 0px;
@@ -344,9 +343,9 @@
     background-size: cover;
     position: relative;
     background-image: url(../imgs/img03.jpg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: center top;
-    /* display: flex; */
+    display: flex;
     height: 100vh;
     width: 100%;
     top: 0px;
@@ -356,44 +355,13 @@
     align-items: flex-end; */
 }
 
-/* `sm` 超小型裝置 （垂直螢幕手機，小於576px） */
-@media (max-width: 575.98px) {
-    #bannerimg01 {
-        background-size: cover;
-        position: relative;
-        background-image: url(../imgs/1170x2532_01.jpg);
-        /* background-repeat: no-repeat; */
-        background-position: center top;
-    }
-
-    #bannerimg02 {
-        background-size: cover;
-        position: relative;
-        background-image: url(../imgs/1170x2532_02.jpg);
-        /* background-repeat: no-repeat; */
-        background-position: center top;
-    }
-
-    #bannerimg03 {
-        background-size: cover;
-        position: relative;
-        background-image: url(../imgs/1170x2532_03.jpg);
-        /* background-repeat: no-repeat; */
-        background-position: center top;
-    }
-
-}
-
 /* 小型裝置 (橫向手機畫面, 小於 768px) */
-@media (max-width: 767.98px) {}
-
-/* `lg` 中型設備（平板電腦，小於992px） */
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 767.98px) {
     #bannerimg01 {
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_01.jpg);
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
         background-position: center top;
     }
 
@@ -401,7 +369,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_02.jpg);
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
         background-position: center top;
     }
 
@@ -409,7 +377,63 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_03.jpg);
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+}
+
+/* `sm` 超小型裝置 （垂直螢幕手機，小於576px） */
+@media (max-width: 575.98px) {
+    #bannerimg01 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/1170x2532_01.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #bannerimg02 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/1170x2532_02.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #bannerimg03 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/1170x2532_03.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+}
+
+
+/* `lg` 中型設備（平板電腦，小於992px） */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #bannerimg01 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/IPAD992X1200_01.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #bannerimg02 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/IPAD992X1200_02.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #bannerimg03 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/IPAD992X1200_03.jpg);
+        background-repeat: no-repeat;
         background-position: center top;
     }
 }
@@ -420,7 +444,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_01.jpg);
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
         background-position: center top;
     }
 
@@ -428,7 +452,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_02.jpg);
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
         background-position: center top;
     }
 
@@ -436,7 +460,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_03.jpg);
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
         background-position: center top;
     }
 }
@@ -456,6 +480,7 @@ Footer
     z-index: 9999;
 } */
 
+
 .footer .nav-link {
     font-size: 16px;
     font-weight: 500;
@@ -466,15 +491,14 @@ Footer
     font-size: 14px;
 }
 
-.footer .nav-item a:hover,
-.nav-item .active,
-.nav-item .active:focus,
-.nav-item li:hover>a {
-
+.footer a:hover,
+.footer .active,
+.footer .active:focus,
+.footer li:hover>a {
     color: #3fbbc0;
 }
 
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+
 @media (max-width: 575.98px) {
     .footer .nav-link {
         font-size: 12px;
@@ -486,9 +510,3 @@ Footer
         font-size: 10px;
     }
 }
-
-/* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {}
-
-/* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {}
