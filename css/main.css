@@ -37,12 +37,46 @@
     padding: 5px;
 }
 
+@media (max-width: 575.98px) {
+    .daliart-logo img {
+        min-width: 100px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .wonder-newland-logo img {
+        min-width: 120px;
+        height: auto;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar {
+        padding: 5px;
+        margin: 0 10px 0 0;
+    }
+
+    .daliart-logo img {
+        min-width: 100px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .wonder-newland-logo img {
+        min-width: 120px;
+        height: auto;
+        padding: 5px;
+    }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /*** 桌機選單 **/
 .navbar {
-    padding: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
 }
 
 .navbar ul {
@@ -241,15 +275,21 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-@media (max-width: 992px) {
+@media (max-height: 500px) {
     #hero {
-        height: 100vh;
+        height: 160vh;
     }
 }
 
 @media (max-width: 768px) {
     #hero h2 {
         font-size: 28px;
+    }
+}
+
+@media (max-width: 992px) {
+    #hero {
+        height: 100vh;
     }
 }
 
@@ -261,11 +301,6 @@
     }
 }
 
-@media (max-height: 500px) {
-    #hero {
-        height: 160vh;
-    }
-}
 
 #bannerimg01 {
     background-size: cover;
@@ -315,29 +350,12 @@
     align-items: flex-end; */
 }
 
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+/* `sm` 超小型裝置 （垂直螢幕手機，小於576px） */
 @media (max-width: 575.98px) {
-    /* #bannerimg03 {
-        background-size: cover;
-        position: relative;
-        background-image: url(../imgs/mobile03.jpg);
-        background-repeat: no-repeat;
-        background-position: center top;
-    } */
-}
-
-/* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {}
-
-/* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {}
-
-/* `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
     #bannerimg01 {
         background-size: cover;
         position: relative;
-        background-image: url(../imgs/mobile01_800X1920.jpg);
+        background-image: url(../imgs/1170x2532_01.jpg);
         background-repeat: no-repeat;
         background-position: center top;
     }
@@ -345,7 +363,7 @@
     #bannerimg02 {
         background-size: cover;
         position: relative;
-        background-image: url(../imgs/mobile02_1000X1920.jpg);
+        background-image: url(../imgs/1170x2532_02.jpg);
         background-repeat: no-repeat;
         background-position: center top;
     }
@@ -353,13 +371,71 @@
     #bannerimg03 {
         background-size: cover;
         position: relative;
-        background-image: url(../imgs/mobile03_800X1920.jpg);
+        background-image: url(../imgs/1170x2532_03.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+}
+
+/* 小型裝置 (橫向手機畫面, 小於 768px) */
+@media (max-width: 767.98px) {}
+
+/* `lg` 中型設備（平板電腦，小於992px） */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #bannerimg01 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/IPAD992X1200_01.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #bannerimg02 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/IPAD992X1200_02.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #bannerimg03 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/IPAD992X1200_03.jpg);
         background-repeat: no-repeat;
         background-position: center top;
     }
 }
 
-/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+/* `xl` 大型設備（桌上型電腦，小於1200px） */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    #bannerimg01 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/IPAD992X1200_01.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #bannerimg02 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/IPAD992X1200_02.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    #bannerimg03 {
+        background-size: cover;
+        position: relative;
+        background-image: url(../imgs/IPAD992X1200_03.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+}
+
+/* `xxl` 超大型設備（大型桌面，小於 1400 像素） */
 @media (max-width: 1399.98px) {}
 
 /*--------------------------------------------------------------
