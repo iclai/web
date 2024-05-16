@@ -303,14 +303,14 @@
     }
 }
 
-
+/*** 輪播圖的圖片 ***/
 #bannerimg01 {
     background-size: cover;
     position: relative;
     background-image: url(../imgs/img01.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center top;
-    display: flex;
+    /* display: flex; */
     height: 100vh;
     width: 100%;
     top: 0px;
@@ -324,9 +324,9 @@
     background-size: cover;
     position: relative;
     background-image: url(../imgs/img02.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center top;
-    display: flex;
+    /* display: flex; */
     height: 100vh;
     width: 100%;
     top: 0px;
@@ -340,9 +340,9 @@
     background-size: cover;
     position: relative;
     background-image: url(../imgs/img03.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center top;
-    display: flex;
+    /* display: flex; */
     height: 100vh;
     width: 100%;
     top: 0px;
@@ -358,7 +358,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/1170x2532_01.jpg);
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-position: center top;
     }
 
@@ -366,7 +366,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/1170x2532_02.jpg);
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-position: center top;
     }
 
@@ -374,7 +374,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/1170x2532_03.jpg);
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-position: center top;
     }
 
@@ -389,7 +389,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_01.jpg);
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-position: center top;
     }
 
@@ -397,7 +397,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_02.jpg);
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-position: center top;
     }
 
@@ -405,7 +405,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_03.jpg);
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-position: center top;
     }
 }
@@ -416,7 +416,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_01.jpg);
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-position: center top;
     }
 
@@ -424,7 +424,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_02.jpg);
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-position: center top;
     }
 
@@ -432,7 +432,7 @@
         background-size: cover;
         position: relative;
         background-image: url(../imgs/IPAD992X1200_03.jpg);
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-position: center top;
     }
 }
