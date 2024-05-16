@@ -303,6 +303,10 @@
     }
 }
 
+.carousel {
+    touch-action: auto;
+}
+
 /*** 輪播圖的圖片 ***/
 #bannerimg01 {
     background-size: cover;
